@@ -1,0 +1,65 @@
+.navbar {
+    padding: 10px;
+    background: slateblue;
+  }
+  
+  /* Make navbar li's inline-block elements so we can have multiple on the same line. */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background:rgb(235, 234, 241);
+    border-radius: 3px;
+  }
+  
+    .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+
+.header {
+    height: 200px;
+    padding-top: 20px;
+    background: rgb(240, 240, 245);
+  }
+
+#SummaryFigs{
+    height: 100%;
+    width: 100%;
+}
+
+#HumidityFig{
+    height: 80%;
+    width: 80%;
+}
+
+#MaxTempFig{
+    margin-bottom: 1px;
+    height: 80%;
+    width: 80%;
+}
+
+.ComparisonFigs{
+    height: 80%;
+    width: 80%;
+}
+
+h4{
+    color: black;
+  }
+
+h1{
+    color: slateblue;
+  }
+
+h2{
+    /*add a margin at the bottom of the header*/
+    margin-bottom:25px;
+    /*change font color*/
+    color:slateblue;
+    /*underline text*/
+    text-decoration: underline;
+  }
